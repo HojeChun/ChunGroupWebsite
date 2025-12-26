@@ -14,6 +14,7 @@
   orcid: 0000-0003-0624-536X
   plugin: sources.py
   file: sources.yaml
+  image: images/publications/2025_jctc.png
 - id: doi:10.1038/s41467-025-56476-8
   title: Time-resolved Brownian tomography of single nanocrystals in liquid during
     oxidative etching
@@ -157,6 +158,7 @@
   orcid: 0000-0003-0624-536X
   plugin: sources.py
   file: sources.yaml
+  image: images/publications/2021_chem_catal.jpeg
 - id: doi:10.1016/j.jallcom.2021.160007
   title: n-Type thermoelectric properties of a hexagonal SiGe polymorph superior to
     a cubic SiGe
@@ -263,7 +265,6 @@
   publisher: 'Applied Catalysis B: Environmental'
   date: '2022-05-01'
   link: https://doi.org/hbg5z2
-  image: images/publications/test_tetrahedron.png
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1021/acscentsci.5c00547
@@ -295,6 +296,7 @@
   publisher: npj Computational Materials
   date: '2024-10-19'
   link: https://doi.org/hbg5z4
+  image: images/publications/2025_npj_comp_hj.pdf
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.bios.2023.115882
@@ -386,6 +388,7 @@
   publisher: arXiv
   date: '2024-01-01'
   link: https://doi.org/hbg52b
+  image: images/publications/2025_mfpt.pdf
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1038/s41598-023-28492-5
