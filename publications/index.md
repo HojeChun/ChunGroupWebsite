@@ -13,7 +13,6 @@ nav:
 
 {% include citation.html lookup="doi:10.48550/arXiv.2411.17839" style="rich" %}
 
-
 {% include citation.html lookup="Learning Pairwise Interaction for Extrapolative and Interpretable Machine Learning Interatomic Potentials with Physics-Informed Neural Network" style="rich" %}
 
 {% include citation.html lookup="Active learning accelerated exploration of single-atom local environments
