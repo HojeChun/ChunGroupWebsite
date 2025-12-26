@@ -3,18 +3,18 @@
 
 # Digital materials processing and discovery
 
-We develop AI-driven atomistic simulation frameworks for predictive materials design. By integrating deep reinforcement learning, machine-learning interatomic potentials, and automated workflows, we bridge experimental complexity with atomistic modeling to understand and predict materials formation, evolution, and functionality.
+We develop AI-driven atomistic simulation frameworks for predictive materials design. By integrating deep reinforcement learning, machine-learning interatomic potentials, and automated workflows, we bridge experimental complexity with atomistic modeling to understand and predict materials formation, evolution, and functionality. Our research addresses fundamental questions in chemical bonding, materials processing, and ion transport.
 
 {% include section.html %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We use computational tools to understand and design materials, including electronic materials for heterojunctions, ionic conductors for energy storage, and heterogeneous (electro)catalysts.
 
 {%
   include button.html
   link="research"
-  text="Research areas"
+  text="See our research interests"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -26,13 +26,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="research"
-  title="Research overview"
+  title="Research areas"
   text=text
 %}
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Discover our latest research in materials design, digital discovery, and algorithm developments.
 
 {%
   include button.html
@@ -57,7 +57,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are always looking for motivated undergraduate interns and MS and PhD students. We are building a collaborative and supportive research environment in the lab.
 
 {%
   include button.html
