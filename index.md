@@ -7,8 +7,6 @@ An engaging 1-3 sentence description of your lab.
 
 {% include section.html %}
 
-## Highlights
-
 {% capture text %}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -16,7 +14,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {%
   include button.html
   link="research"
-  text="Research overview"
+  text="Research areas"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -28,7 +26,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="research"
-  title="Research Areas"
+  title="Research Overview"
   text=text
 %}
 
