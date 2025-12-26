@@ -1,10 +1,10 @@
 ---
 title: Example post 1
-author: sarah-johnson
+author: hoje
 tags:
-  - biology
-  - medicine
-  - big data
+  - publication
+  - lab life
+  - spotlight
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

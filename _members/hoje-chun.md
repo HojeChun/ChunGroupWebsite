@@ -6,6 +6,8 @@ group: team
 aliases:
   - H. Chun
   - Hoje Chun
+  - hoje
+  - hoje chun
 links:
   email: hoje.chun316@gmail.com
   orcid: 0000-0003-0624-536X
