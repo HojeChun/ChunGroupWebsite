@@ -2,6 +2,7 @@
 name: Hoje Chun
 image: images/photo.jpg
 role: principal-investigator
+group: team
 aliases:
   - H. Chun
   - Hoje Chun
