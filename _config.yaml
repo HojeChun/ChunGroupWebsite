@@ -1,5 +1,5 @@
 # site properties and page defaults
-title: HojeChun
+title: Chun group
 subtitle: 
 description: An engaging 1-3 sentence description of your lab.
 header: images/background.jpg
@@ -8,12 +8,10 @@ proofer: false
 
 # site social media and other links
 links:
-  email: contact@HojeChun.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  email: hoje.chun316@gmail.com
+  orcid: 0000-0003-0624-536X
+  google-scholar: ZrnibVwAAAAJ
   github: HojeChun
-  twitter: HojeChun
-  youtube: HojeChun
 
 ### jekyll settings
 
