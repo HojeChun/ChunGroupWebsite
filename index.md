@@ -3,7 +3,7 @@
 
 # Digital materials processing and discovery
 
-Our lab is interested in answering question: How can we unify accurate ab initio modeling with scalable AI frameworks to enable predictive design of energy/electronic materials?
+We develop AI-driven atomistic simulation frameworks for predictive materials design. By integrating deep reinforcement learning, machine-learning interatomic potentials, and automated workflows, we bridge experimental complexity with atomistic modeling to understand and predict materials formation, evolution, and functionality.
 
 {% include section.html %}
 
@@ -26,7 +26,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="research"
-  title="Research Overview"
+  title="Research overview"
   text=text
 %}
 
@@ -74,6 +74,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   include feature.html
   image="images/photo.jpg"
   link="team"
-  title="Our Team"
+  title="Our team"
   text=text
 %}
