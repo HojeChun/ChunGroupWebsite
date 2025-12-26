@@ -7,7 +7,9 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-book-open" %} Publications
 
-## Highlighted
+{% include search-box.html %}
+
+## Selected publications
 
 {% include citation.html lookup="doi:10.48550/arXiv.2411.17839" style="rich" %}
 
@@ -24,8 +26,6 @@ nav:
 
 
 ## All
-
-{% include search-box.html %}
 
 {% include search-info.html %}
 
