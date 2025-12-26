@@ -1,9 +1,9 @@
 ---
 ---
 
-# HojeChun's Website
+# Digital materials processing and discovery
 
-An engaging 1-3 sentence description of your lab.
+Our lab is interested in answering question: How can we unify accurate ab initio modeling with scalable AI frameworks to enable predictive design of energy/electronic materials?
 
 {% include section.html %}
 
