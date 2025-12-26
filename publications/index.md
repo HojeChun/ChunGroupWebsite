@@ -25,8 +25,6 @@ nav:
 {% include button.html icon="fa-brands fa-google" text="More on Google Scholar" link="https://scholar.google.com/citations?hl=ko&user=ZrnibVwAAAAJ" %}
 
 
-## All
-
 {% include search-info.html %}
 
 {% include list.html data="citations" component="citation" %}
