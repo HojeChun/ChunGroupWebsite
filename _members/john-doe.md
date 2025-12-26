@@ -1,5 +1,5 @@
 ---
-name: John Doe
+name: Mascot
 image: images/photo.jpg
 role: phd
 group: alum
