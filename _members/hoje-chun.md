@@ -1,8 +1,7 @@
 ---
 name: Hoje Chun
 image: images/photo.jpg
-role: pi
-affiliation: Kookmin University
+role: principal-investigator
 aliases:
   - H. Chun
   - Hoje Chun
