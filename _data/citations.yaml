@@ -296,7 +296,7 @@
   publisher: npj Computational Materials
   date: '2024-10-19'
   link: https://doi.org/hbg5z4
-  image: images/publications/2025_npj_comp_hj.png
+  image: images/publications/2024_npj_comp_hj.png
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.bios.2023.115882
