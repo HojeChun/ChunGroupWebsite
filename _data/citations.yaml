@@ -1,191 +1,255 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1101/2025.06.19.660613
-  title: Scalable data harmonization for single-cell image-based profiling with CytoTable
+- id: doi:10.1021/acs.jctc.5c00090
+  title: Learning Pairwise Interaction for Extrapolative and Interpretable Machine
+    Learning Interatomic Potentials with Physics-Informed Neural Network
   authors:
-  - Dave Bunten
-  - Jenna Tomkinson
-  - Erik Serrano
-  - Michael J. Lippincott
-  - Kenneth I. Brewer
-  - Vince Rubinetti
-  - Faisal Alquaddoomi
-  - Gregory P. Way
-  publisher: Cold Spring Harbor Laboratory
-  date: '2025-06-25'
-  link: https://doi.org/g9rfr3
-  orcid: 0000-0002-4655-3773
+  - Hoje Chun
+  - Minjoon Hong
+  - Seung Hyo Noh
+  - Byungchan Han
+  publisher: Journal of Chemical Theory and Computation
+  date: '2025-04-14'
+  link: https://doi.org/hbg5zp
+  orcid: 0000-0003-0624-536X
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.1038/s41467-025-56476-8
+  title: Time-resolved Brownian tomography of single nanocrystals in liquid during
+    oxidative etching
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
+  - Sungsu Kang
+  - Joodeok Kim
+  - Sungin Kim
+  - Hoje Chun
+  - Junyoung Heo
+  - Cyril F. Reboul
+  - "Rub\xE9n Meana-Pa\xF1eda"
+  - Cong T. S. Van
+  - Hyesung Choi
+  - Yunseo Lee
+  - Jinho Rhee
+  - Minyoung Lee
+  - Dohun Kang
+  - Byung Hyo Kim
+  - Taeghwan Hyeon
+  - Byungchan Han
+  - Peter Ercius
+  - Won Chul Lee
+  - Hans Elmlund
+  - Jungwon Park
+  publisher: Nature Communications
+  date: '2025-01-29'
+  link: https://doi.org/hbg5zq
+  orcid: 0000-0003-0624-536X
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
+- id: doi:10.26434/chemrxiv-2024-6skxn
+  title: Active learning accelerated exploration of single-atom local environments
+    in multimetallic systems for oxygen electrocatalysis
   authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
+  - Hoje Chun
+  - Jaclyn Lunger
+  - Jeung Ku Kang
+  - "Rafael G\xF3mez-Bombarelli"
+  - Byungchan Han
+  publisher: American Chemical Society (ACS)
+  date: '2024-03-14'
+  link: https://doi.org/hbg5zr
+  orcid: 0000-0003-0624-536X
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.1021/acscatal.3c01441
+  title: Increasing CO Binding Energy and Defects by Preserving Cu Oxidation State
+    via O<sub>2</sub>-Plasma-Assisted N Doping on CuO Enables High C<sub>2+</sub>
+    Selectivity and Long-Term Stability in Electrochemical CO<sub>2</sub> Reduction
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
+  - Dong Gyu Park
+  - Jae Won Choi
+  - Hoje Chun
+  - Hae Sung Jang
+  - Heebin Lee
+  - Won Ho Choi
+  - Byeong Cheul Moon
+  - Keon-Han Kim
+  - Min Gyu Kim
+  - Kyung Min Choi
+  - Byungchan Han
+  - Jeung Ku Kang
+  publisher: ACS Catalysis
+  date: '2023-06-26'
+  link: https://doi.org/hbg5zs
+  orcid: 0000-0003-0624-536X
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+- id: doi:10.1002/cnma.202200057
+  title: "3\u2010Dimensional Scanning of Entire Unit Cells in Single Nanoparticles."
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
+  - Junyoung Heo
+  - Dohun Kang
+  - Sungin Kim
+  - Hoje Chun
+  - Byungchan Han
+  - Byung Hyo Kim
+  - Jungwon Park
+  publisher: ChemNanoMat
+  date: '2022-03-28'
+  link: https://doi.org/hbg5zt
+  orcid: 0000-0003-0624-536X
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
+- id: doi:10.1038/s41586-021-04391-5
+  title: Metastable hexagonal close-packed palladium hydride in liquid cell TEM
   authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
+  - Jaeyoung Hong
+  - Jee-Hwan Bae
+  - Hyesung Jo
+  - Hee-Young Park
+  - Sehyun Lee
+  - Sung Jun Hong
+  - Hoje Chun
+  - Min Kyung Cho
+  - Juyoung Kim
+  - Joodeok Kim
+  - Yongju Son
+  - Haneul Jin
+  - Jin-Yoo Suh
+  - Sung-Chul Kim
+  - Ha-Kyung Roh
+  - Kyu Hyoung Lee
+  - Hyung-Seok Kim
+  - Kyung Yoon Chung
+  - Chang Won Yoon
+  - Kiryeong Lee
+  - Seo Hee Kim
+  - Jae-Pyoung Ahn
+  - Hionsuck Baik
+  - Gyeung Ho Kim
+  - Byungchan Han
+  - Sungho Jin
+  - Taeghwan Hyeon
+  - Jungwon Park
+  - Chang Yun Son
+  - Yongsoo Yang
+  - Young-Su Lee
+  - Sung Jong Yoo
+  - Dong Won Chun
+  publisher: Nature
+  date: '2022-03-23'
+  link: https://doi.org/gthvk2
+  orcid: 0000-0003-0624-536X
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
+- id: doi:10.1016/j.checat.2021.06.001
+  title: First-principle-data-integrated machine-learning approach for high-throughput
+    searching of ternary electrocatalyst toward oxygen reduction reaction
   authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo M Sosinski
-  - Faisal S Alquaddoomi
-  - Evan P Brenner
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
+  - Hoje Chun
+  - Eunjik Lee
+  - Kyungju Nam
+  - Ji-Hoon Jang
+  - Woomin Kyoung
+  - Seung Hyo Noh
+  - Byungchan Han
+  publisher: Chem Catalysis
+  date: '2021-09-01'
+  link: https://doi.org/hbg5zv
+  orcid: 0000-0003-0624-536X
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+- id: doi:10.1016/j.jallcom.2021.160007
+  title: n-Type thermoelectric properties of a hexagonal SiGe polymorph superior to
+    a cubic SiGe
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  - Sung Jun Hong
+  - Hoje Chun
+  - Choah Kwon
+  - Byungchan Han
+  publisher: Journal of Alloys and Compounds
+  date: '2021-09-01'
+  link: https://doi.org/hbg5zw
+  orcid: 0000-0003-0624-536X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1021/acs.jpclett.1c01140
+  title: First-Principles-Based Machine-Learning Molecular Dynamics for Crystalline
+    Polymers with van der Waals Interactions
+  authors:
+  - Sung Jun Hong
+  - Hoje Chun
+  - Jehyun Lee
+  - Byung-Hyun Kim
+  - Min Ho Seo
+  - Joonhee Kang
+  - Byungchan Han
+  publisher: The Journal of Physical Chemistry Letters
+  date: '2021-06-24'
+  link: https://doi.org/gns8zs
+  orcid: 0000-0003-0624-536X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.bios.2021.112979
+  title: 'Optical bioelectronic nose of outstanding sensitivity and selectivity toward
+    volatile organic compounds implemented with genetically engineered bacteriophage:
+    Integrated study of multi-scale computational prediction and experimental validation'
+  authors:
+  - Jungyun Park
+  - Jong-Min Lee
+  - Hoje Chun
+  - Yujin Lee
+  - Sung Jun Hong
+  - Hyunwook Jung
+  - Ye-Ji Kim
+  - Won-Geun Kim
+  - Vasanthan Devaraj
+  - Eun Jung Choi
+  - Jin-Woo Oh
+  - Byungchan Han
+  publisher: Biosensors and Bioelectronics
+  date: '2021-04-01'
+  link: https://doi.org/hbg5zx
+  orcid: 0000-0003-0624-536X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1039/D1TA04084G
+  title: 'Design of a unique anion framework in halospinels for outstanding performance
+    of all solid-state Li-ion batteries: first-principles approach'
+  authors:
+  - Hoje Chun
+  - Kyungju Nam
+  - Sung Jun Hong
+  - Joonhee Kang
+  - Byungchan Han
+  publisher: Journal of Materials Chemistry A
+  date: '2021-01-01'
+  link: https://doi.org/gn3pn4
+  orcid: 0000-0003-0624-536X
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1126/science.aax3233
+  title: Critical differences in 3D atomic structure of individual ligand-protected
+    nanocrystals in solution
+  authors:
+  - Byung Hyo Kim
+  - Junyoung Heo
+  - Sungin Kim
+  - Cyril F. Reboul
+  - Hoje Chun
+  - Dohun Kang
+  - Hyeonhu Bae
+  - Hyejeong Hyun
+  - Jongwoo Lim
+  - Hoonkyung Lee
+  - Byungchan Han
+  - Taeghwan Hyeon
+  - A. Paul Alivisatos
+  - Peter Ercius
+  - Hans Elmlund
+  - Jungwon Park
+  publisher: Science
+  date: '2020-04-03'
+  link: https://doi.org/ggrf78
+  orcid: 0000-0003-0624-536X
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
@@ -201,9 +265,6 @@
   publisher: PLOS Computational Biology
   date: '2020-12-04'
   link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: sources.py
-  file: sources.yaml
   type: paper
   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
     do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -220,21 +281,8 @@
   - open science
   - collaboration
   repo: greenelab/meta-review
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
-  authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.csbj.2020.05.017
   title: Constructing knowledge graphs and their biomedical applications
   authors:
