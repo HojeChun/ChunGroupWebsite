@@ -15,6 +15,9 @@
   plugin: sources.py
   file: sources.yaml
   image: images/publications/2025_jctc.png
+  tags:
+  - machine-learning
+  - algorithm
 - id: doi:10.1038/s41467-025-56476-8
   title: Time-resolved Brownian tomography of single nanocrystals in liquid during
     oxidative etching
@@ -159,6 +162,10 @@
   plugin: sources.py
   file: sources.yaml
   image: images/publications/2021_chem_catal.jpeg
+  tags:
+  - machine-learning
+  - virtual screening
+  - catalysts
 - id: doi:10.1016/j.jallcom.2021.160007
   title: n-Type thermoelectric properties of a hexagonal SiGe polymorph superior to
     a cubic SiGe
@@ -282,6 +289,8 @@
   publisher: Journal of Materials Informatics
   date: '2025-11-20'
   link: https://doi.org/hbg546
+  tags:
+  - machine-learning
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.apcatb.2021.120938
@@ -295,6 +304,8 @@
   publisher: 'Applied Catalysis B: Environmental'
   date: '2022-05-01'
   link: https://doi.org/hbg5z2
+  tags:
+  - catalysts
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1021/acscentsci.5c00547
@@ -327,6 +338,9 @@
   date: '2024-10-19'
   link: https://doi.org/hbg5z4
   image: images/publications/2024_npj_comp_hj.png
+  tags:
+  - machine-learning
+  - virtual screening
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1016/j.bios.2023.115882
@@ -419,6 +433,9 @@
   date: '2024-01-01'
   link: https://doi.org/hbg52b
   image: images/publications/2025_mfpt.png
+  tags:
+  - machine-learning
+  - algorithm
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1038/s41598-023-28492-5
