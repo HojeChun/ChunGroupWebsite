@@ -254,6 +254,36 @@
   orcid: 0000-0003-0624-536X
   plugin: sources.py
   file: sources.yaml
+- id: doi:10.20517/jmi.2025.65
+  title: 'Exploring materials data through collaboration: 2024 KRICT ChemDX Hackathon'
+  authors:
+  - Su-Hyun Yoo
+  - Andre K. Y. Low
+  - Jose Recatala-Gomez
+  - Harikrishna Sahu
+  - Chiho Kim
+  - Joonyoung F. Joung
+  - Hoje Chun
+  - Katerina A. Christofidou
+  - Joshua Berry
+  - Michail Minotakis
+  - Kisung Kang
+  - Kwang-soo Kim
+  - Gaheun Shin
+  - Hyunwoo Jang
+  - Sanghyuk Lee
+  - Minkyu Park
+  - Byung-Hyun Kim
+  - Kihyun Shin
+  - Jungho Shin
+  - Aloysius Soon
+  - Joshua Schrier
+  - Woosun Jang
+  publisher: Journal of Materials Informatics
+  date: '2025-11-20'
+  link: https://doi.org/hbg546
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1016/j.apcatb.2021.120938
   title: Accelerated N2 reduction kinetics in hybrid interfaces of NbTiO4 and nitrogen-doped
     carbon nanorod via synergistic electronic coupling effect
@@ -610,5 +640,207 @@
   publisher: Energy Storage Materials
   date: '2025-02-01'
   link: https://doi.org/hbg52j
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1073/pnas.2424950122
+  title: Multiphasic size-dependent growth dynamics of nanoparticle ensembles
+  authors:
+  - Ji-Hyun Kim
+  - Joodeok Kim
+  - Byung Hyo Kim
+  - Sanggeun Song
+  - Jingyu Kang
+  - Jinho Rhee
+  - Donghee Kim
+  - Hoje Chun
+  - Hyesung Choi
+  - Hyungjin Cho
+  - Yongjoon Kim
+  - Jae Won Jung
+  - Youngju Son
+  - Junhyeok Jung
+  - Kunwoo Park
+  - Sungho Jeon
+  - Minho Lee
+  - Byungchan Han
+  - Won Chul Lee
+  - Dongjun Kim
+  - Taeghwan Hyeon
+  - Jaeyoung Sung
+  - Jungwon Park
+  publisher: Proceedings of the National Academy of Sciences
+  date: '2025-06-04'
+  link: https://doi.org/g9zqsw
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.apsusc.2022.152955
+  title: 'Outstanding stability of Gd-doped UO2 against surface oxidation: First-principles
+    study'
+  authors:
+  - Minjoon Hong
+  - Hoje Chun
+  - Choah Kwon
+  - Byungchan Han
+  publisher: Applied Surface Science
+  date: '2022-07-01'
+  link: https://doi.org/hbg547
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.mtnano.2020.100099
+  title: High quantum efficiency and stability of biohybrid quantum dots nanojunctions
+    in bacteriophage-constructed perovskite
+  authors:
+  - Jong-Min Lee
+  - Jin Woo Choi
+  - Il Jeon
+  - Ye Zhu
+  - Tao Yang
+  - Hoje Chun
+  - Jongmoon Shin
+  - Juyun Park
+  - Joohee Bang
+  - Kyounga Lim
+  - Won-Geun Kim
+  - Yeji Kim
+  - Hyuk Jeong
+  - Eun Jung Choi
+  - Vasanthan Devaraj
+  - Jeong Seok Nam
+  - Hyungju Ahn
+  - Yong-Cheol Kang
+  - Byungchan Han
+  - Myungkwan Song
+  - Jin-Woo Oh
+  - Chuanbin Mao
+  publisher: Materials Today Nano
+  date: '2021-03-01'
+  link: https://doi.org/hbg548
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1021/acssuschemeng.0c02981
+  title: Pairing of Transition Metal Dichalcogenides and Doped Graphene for Catalytically
+    Dual Active Interfaces for the Hydrogen Evolution Reaction
+  authors:
+  - Kyungju Nam
+  - Hoje Chun
+  - Jeemin Hwang
+  - Kyung-Ah Min
+  - Byungchan Han
+  publisher: ACS Sustainable Chemistry &amp; Engineering
+  date: '2020-07-07'
+  link: https://doi.org/hbg549
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1039/D0TC01309A
+  title: First-principles mechanism study on distinct optoelectronic properties of
+    Cl-doped 2D hybrid tin iodide perovskite
+  authors:
+  - Sung Jun Hong
+  - Hoje Chun
+  - Kyung-Ah Min
+  - Byungchan Han
+  publisher: Journal of Materials Chemistry C
+  date: '2020-01-01'
+  link: https://doi.org/grnjf7
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.jpowsour.2020.227998
+  title: Ultrastable molybdenum disulfide-based electrocatalyst for hydrogen evolution
+    in acidic media
+  authors:
+  - Yunxing Zhao
+  - Jeemin Hwang
+  - Michael T. Tang
+  - Hoje Chun
+  - Xingli Wang
+  - Hu Zhao
+  - Karen Chan
+  - Byungchan Han
+  - Pingqi Gao
+  - Hong Li
+  publisher: Journal of Power Sources
+  date: '2020-04-01'
+  link: https://doi.org/g7kw6q
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.jiec.2018.10.024
+  title: Elucidation of hydrolysis reaction mechanism of tungsten hexafluoride (WF6)
+    using first-principles calculations
+  authors:
+  - Hyunwook Jung
+  - Jeemin Hwang
+  - Hoje Chun
+  - Byungchan Han
+  publisher: Journal of Industrial and Engineering Chemistry
+  date: '2019-02-01'
+  link: https://doi.org/hbg55b
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.jhazmat.2017.08.054
+  title: First principles computational study on hydrolysis of hazardous chemicals
+    phosphorus trichloride and oxychloride (PCl3 and POCl3) catalyzed by molecular
+    water clusters
+  authors:
+  - Hyunwook Jung
+  - Joonhee Kang
+  - Hoje Chun
+  - Byungchan Han
+  publisher: Journal of Hazardous Materials
+  date: '2018-01-01'
+  link: https://doi.org/gv235j
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1002/er.4064
+  title: First principles computational studies of spontaneous reduction reaction
+    of Eu(III) in eutectic LiCl-KCl molten salt
+  authors:
+  - Choah Kwon
+  - Seung Hyo Noh
+  - Hoje Chun
+  - Il Soon Hwang
+  - Byungchan Han
+  publisher: International Journal of Energy Research
+  date: '2018-03-26'
+  link: https://doi.org/gdr99t
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1039/C6CP06483C
+  title: First principles computational study on the adsorption mechanism of organic
+    methyl iodide gas on triethylenediamine impregnated activated carbon
+  authors:
+  - Hoje Chun
+  - Joonhee Kang
+  - Byungchan Han
+  publisher: Physical Chemistry Chemical Physics
+  date: '2016-01-01'
+  link: https://doi.org/g9v6rp
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1021/acssuschemeng.9b07166
+  title: "First-Principles Design of Highly Functional Sulfide Electrolyte of Li<sub>10<i>\u2212\
+    x</i></sub>SnP<sub>2</sub>S<sub>12\u2212<i>x</i></sub>Cl<sub><i>x</i></sub> for\
+    \ All Solid-State Li-Ion Battery Applications"
+  authors:
+  - Kyungju Nam
+  - Hoje Chun
+  - Jeemin Hwang
+  - Byungchan Han
+  publisher: ACS Sustainable Chemistry &amp; Engineering
+  date: '2020-02-12'
+  link: https://doi.org/hbg55c
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.apsusc.2019.144861
+  title: "First-principles computational study of Ni/\u03B1-Al2O3 hybrid interface\
+    \ reactions under extreme thermodynamic conditions"
+  authors:
+  - Hoje Chun
+  - Daehyeon Choi
+  - Joonhee Kang
+  - Jung Su Park
+  - Byungchan Han
+  publisher: Applied Surface Science
+  date: '2020-04-01'
+  link: https://doi.org/hbg55d
   plugin: sources.py
   file: sources.yaml
