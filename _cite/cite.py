@@ -176,49 +176,65 @@ log()
 log("Merging duplicate citations by title (removing preprint versions)")
 
 # merge citations with matching titles, keeping published version over preprint
-for a in range(0, len(citations)):
-    a_title = get_safe(citations[a], "title", "").strip().lower()
-    a_id = get_safe(citations[a], "id", "")
-    if not a_title or not a_id:
+# use a dictionary to group by title
+title_groups = {}
+for citation in citations:
+    title = get_safe(citation, "title", "").strip().lower()
+    if not title:
+        continue
+    if title not in title_groups:
+        title_groups[title] = []
+    title_groups[title].append(citation)
+
+# process each group
+merged_citations = []
+removed_ids = set()
+
+for title, group in title_groups.items():
+    if len(group) == 1:
+        # no duplicates, keep as is
+        merged_citations.append(group[0])
         continue
     
-    # check if this is a preprint
-    a_is_preprint = "chemrxiv" in a_id.lower() or "arxiv" in a_id.lower()
+    # find published and preprint versions
+    published = []
+    preprints = []
     
-    for b in range(a + 1, len(citations)):
-        if not citations[b]:
+    for citation in group:
+        citation_id = get_safe(citation, "id", "")
+        if not citation_id:
             continue
-        b_title = get_safe(citations[b], "title", "").strip().lower()
-        b_id = get_safe(citations[b], "id", "")
-        if not b_title or not b_id:
-            continue
+        is_preprint = "chemrxiv" in citation_id.lower() or "arxiv" in citation_id.lower()
         
-        # if titles match (case-insensitive)
-        if a_title == b_title:
-            b_is_preprint = "chemrxiv" in b_id.lower() or "arxiv" in b_id.lower()
-            
-            # if both are preprints or both are published, keep the first one
-            if a_is_preprint == b_is_preprint:
-                log(f"Found duplicate titles (both same type): {a_id} and {b_id}", indent=1)
-                # merge metadata, keeping published version
-                if not a_is_preprint:
-                    citations[a].update(citations[b])
-                    citations[b] = {}
-                else:
-                    citations[b].update(citations[a])
-                    citations[a] = {}
-            # if one is preprint and one is published, keep the published one
-            elif a_is_preprint:
-                log(f"Removing preprint {a_id}, keeping published {b_id}", indent=1)
-                citations[b].update(citations[a])  # merge preprint metadata into published
-                citations[a] = {}
-            else:  # b_is_preprint
-                log(f"Removing preprint {b_id}, keeping published {a_id}", indent=1)
-                citations[a].update(citations[b])  # merge preprint metadata into published
-                citations[b] = {}
+        if is_preprint:
+            preprints.append(citation)
+        else:
+            published.append(citation)
+    
+    # if there are published versions, keep them and remove preprints
+    if published:
+        for pub in published:
+            merged_citations.append(pub)
+        for prep in preprints:
+            prep_id = get_safe(prep, "id", "")
+            log(f"Removing preprint {prep_id}, keeping published version(s)", indent=1)
+            removed_ids.add(prep_id)
+    # if only preprints, keep the first one
+    elif preprints:
+        log(f"Only preprint versions found for title, keeping first: {preprints[0].get('id', '')}", indent=1)
+        merged_citations.append(preprints[0])
+        for prep in preprints[1:]:
+            prep_id = get_safe(prep, "id", "")
+            removed_ids.add(prep_id)
 
-# remove empty citations
-citations = [citation for citation in citations if citation]
+# also add citations without titles (shouldn't happen, but just in case)
+for citation in citations:
+    title = get_safe(citation, "title", "").strip().lower()
+    citation_id = get_safe(citation, "id", "")
+    if not title and citation_id and citation_id not in removed_ids:
+        merged_citations.append(citation)
+
+citations = merged_citations
 
 
 log()
