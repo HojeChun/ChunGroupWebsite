@@ -173,6 +173,56 @@ for index, source in enumerate(sources):
 
 log()
 
+log("Merging duplicate citations by title (removing preprint versions)")
+
+# merge citations with matching titles, keeping published version over preprint
+for a in range(0, len(citations)):
+    a_title = get_safe(citations[a], "title", "").strip().lower()
+    a_id = get_safe(citations[a], "id", "")
+    if not a_title or not a_id:
+        continue
+    
+    # check if this is a preprint
+    a_is_preprint = "chemrxiv" in a_id.lower() or "arxiv" in a_id.lower()
+    
+    for b in range(a + 1, len(citations)):
+        if not citations[b]:
+            continue
+        b_title = get_safe(citations[b], "title", "").strip().lower()
+        b_id = get_safe(citations[b], "id", "")
+        if not b_title or not b_id:
+            continue
+        
+        # if titles match (case-insensitive)
+        if a_title == b_title:
+            b_is_preprint = "chemrxiv" in b_id.lower() or "arxiv" in b_id.lower()
+            
+            # if both are preprints or both are published, keep the first one
+            if a_is_preprint == b_is_preprint:
+                log(f"Found duplicate titles (both same type): {a_id} and {b_id}", indent=1)
+                # merge metadata, keeping published version
+                if not a_is_preprint:
+                    citations[a].update(citations[b])
+                    citations[b] = {}
+                else:
+                    citations[b].update(citations[a])
+                    citations[a] = {}
+            # if one is preprint and one is published, keep the published one
+            elif a_is_preprint:
+                log(f"Removing preprint {a_id}, keeping published {b_id}", indent=1)
+                citations[b].update(citations[a])  # merge preprint metadata into published
+                citations[a] = {}
+            else:  # b_is_preprint
+                log(f"Removing preprint {b_id}, keeping published {a_id}", indent=1)
+                citations[a].update(citations[b])  # merge preprint metadata into published
+                citations[b] = {}
+
+# remove empty citations
+citations = [citation for citation in citations if citation]
+
+
+log()
+
 log("Saving updated citations")
 
 
