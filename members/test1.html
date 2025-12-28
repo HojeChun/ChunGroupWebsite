@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!--
@@ -159,6 +159,10 @@
   
 
   
+    <link href="/ChunGroupWebsite/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
     <link href="/ChunGroupWebsite/_styles/details.css" rel="stylesheet">
   
 
@@ -301,6 +305,8 @@
 
   <script src="/ChunGroupWebsite/_scripts/anchors.js"></script>
 
+  <script src="/ChunGroupWebsite/_scripts/dark-mode.js"></script>
+
   <script src="/ChunGroupWebsite/_scripts/fetch-tags.js"></script>
 
   <script src="/ChunGroupWebsite/_scripts/scroll-to-top.js"></script>
@@ -324,7 +330,8 @@
 
 
 
-<header class="background" style="--image: url('/ChunGroupWebsite/images/background.jpg')">
+
+<header class="background" style="--image: url('/ChunGroupWebsite/images/background.jpg')" data-dark="true">
   <a href="/ChunGroupWebsite/" class="home">
     
       <span class="logo">
@@ -453,6 +460,7 @@
 
   
   
+  
 
   <section class="background" data-size="page">
     <div class="float">
@@ -517,7 +525,8 @@
     </main>
     
 
-<footer class="background" style="--image: url('/ChunGroupWebsite/images/background.jpg')" data-size="wide">
+
+<footer class="background" style="--image: url('/ChunGroupWebsite/images/background.jpg')" data-dark="true" data-size="wide">
   <!--
     <div>
       Extra details like contact info or address
@@ -596,6 +605,8 @@
       Lab Website Template
     </a>
   </div>
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
     <a href="#" id="scroll-to-top" class="scroll-to-top" data-tooltip="Scroll to top" aria-label="Scroll to top">
