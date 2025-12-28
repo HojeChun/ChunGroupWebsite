@@ -50,7 +50,7 @@ Dr. Hoje Chun is an Assistant Professor in the Department of Chemistry at Kookmi
 - Sustainable & energy materials: first-principles calculations of functional materials
 - Advanced functional materials: radioactive materials capture, thermal barrier coatings
 
-##  Education/Experience
+##  Honors and Awards
 - Excellence Award, KRICT ChemDX Hackathon (2024)
 - Global Ph.D. Fellowship, National Research Foundation of Korea (NRF)	(2019-2023)
 - Best Poster Award, The Korean Institute of Surface Engineering (2022)
