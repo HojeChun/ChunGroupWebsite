@@ -1,0 +1,38 @@
+---
+---
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.timeline-period {
+  min-width: 120px;
+  font-weight: var(--semi-bold);
+  color: var(--primary);
+  flex-shrink: 0;
+}
+
+.timeline-content {
+  flex: 1;
+}
+
+// Mobile responsive
+@media (max-width: 768px) {
+  .timeline-item {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .timeline-period {
+    min-width: unset;
+  }
+}
+
