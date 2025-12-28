@@ -17,6 +17,7 @@ h1 {
   font-weight: var(--regular);
   text-transform: uppercase;
   text-align: center;
+  color: #000000;
 }
 
 h2 {

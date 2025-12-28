@@ -48,8 +48,7 @@
 
 .citation-number {
   font-weight: var(--semi-bold);
-  color: var(--primary);
-  font-size: var(--large);
+  color: var(--text);
   flex-shrink: 0;
 }
 
