@@ -1,7 +1,7 @@
 ---
 title: News
 nav:
-  order: 5
+  order: 4
   tooltip: Latest news from the lab
 ---
 
