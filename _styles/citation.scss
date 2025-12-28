@@ -46,13 +46,18 @@ $wrap: 800px;
   z-index: 0;
 }
 
+.citation-title-wrapper {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  width: 100%;
+}
+
 .citation-number {
-  position: absolute;
-  left: 10px;
-  top: 20px;
   font-weight: var(--semi-bold);
   color: var(--primary);
   font-size: var(--large);
+  flex-shrink: 0;
 }
 
 .citation-title,
@@ -64,6 +69,7 @@ $wrap: 800px;
 
 .citation-title {
   font-weight: var(--semi-bold);
+  flex: 1;
 }
 
 .citation-text > .icon {

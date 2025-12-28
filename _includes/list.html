@@ -8,6 +8,7 @@
 {% assign years = data
   | group_by_exp: "d", "d.date | date: '%Y'"
   | sort: "name"
+  | reverse
 %}
 
 {% assign counter = 0 %}
@@ -16,7 +17,7 @@
 
   {% if years.size > 1 %}
     {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
-    {% assign data = data | sort: "date" %}
+    {% assign data = data | sort: "date" | reverse %}
   {% endif %}
 
   {% for d in data %}
