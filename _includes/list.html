@@ -5,6 +5,22 @@
   | data_filter: include.filter
 %}
 
+{% comment %} 먼저 오래된 순서로 정렬해서 총 개수 계산 {% endcomment %}
+{% assign years_oldest_first = data
+  | group_by_exp: "d", "d.date | date: '%Y'"
+  | sort: "name"
+%}
+
+{% assign total_count = 0 %}
+{% for year in years_oldest_first %}
+  {% assign year_data = year.items %}
+  {% if years_oldest_first.size > 1 %}
+    {% assign year_data = year_data | sort: "date" %}
+  {% endif %}
+  {% assign total_count = total_count | plus: year_data.size %}
+{% endfor %}
+
+{% comment %} 이제 역순으로 표시하되, 번호는 오래된 순서로 {% endcomment %}
 {% assign years = data
   | group_by_exp: "d", "d.date | date: '%Y'"
   | sort: "name"
@@ -22,6 +38,8 @@
 
   {% for d in data %}
     {% assign counter = counter | plus: 1 %}
+    {% comment %} 역순 표시이므로 번호는 total_count - counter + 1 {% endcomment %}
+    {% assign number = total_count | minus: counter | plus: 1 %}
     {% assign style = d.style | default: include.style %}
 
     {%
@@ -43,7 +61,7 @@
       link=d.link
       lookup=d.lookup
       name=d.name
-      number=counter
+      number=number
       publisher=d.publisher
       repo=d.repo
       role=d.role
