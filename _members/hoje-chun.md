@@ -18,14 +18,14 @@ Dr. Hoje Chun is an Assistant Professor in the Department of Chemistry at Kookmi
 
 {% include section.html%}
 ##  Education
-- PhD, Department of Chemical and Biomolecular Engineering, Yonsei University, Seoul, Korea, (2018-2023)
-- BS, Energy and Environmental Science and Engineering, Yonsei University, Seoul, Korea, (2014-2018)
+- PhD, Department of Chemical and Biomolecular Engineering, Yonsei University, Seoul, Korea (2018-2023)
+- BS, Energy and Environmental Science and Engineering, Yonsei University, Seoul, Korea (2014-2018)
 
 {% include section.html%}
 ## Professional Experiences
-- Assistant Professor, Department of Chemistry, Kookmin University, Seoul, Korea, (2026-present)
-- Postdoctoral Fellow/Associate, Department of Materials Science and Engineering, MIT, Cambridge, USA (2023-2026)
-- BK21 Postdoctoral Associate, Department of Chemical and Biomolecular Engineering, Yonsei University, Seoul, Korea, (2023-2024)
+- Assistant Professor, Department of Chemistry, Kookmin University, Seoul, Korea (2026-present)
+- Postdoctoral Fellow/Associate, Department of Materials Science and Engineering, MIT, Cambridge, MA, USA (2023-2026)
+- BK21 Postdoctoral Associate, Department of Chemical and Biomolecular Engineering, Yonsei University, Seoul, Korea (2023-2024)
 
 {% include section.html%}
 ## Research Interests
