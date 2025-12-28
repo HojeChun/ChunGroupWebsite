@@ -28,6 +28,9 @@
     {% endif %}
 
     <div class="citation-text">
+      {% if include.number %}
+        <span class="citation-number">{{ include.number }}.</span>
+      {% endif %}
       {% assign type = site.data.types[citation.type] %}
       {% include icon.html icon=type.icon %}
 
@@ -99,10 +102,10 @@
             {% endfor %}
           </div>
         {% endif %}
+      {% endif %}
 
-        {% if citation.tags.size > 0 or citation.repo %}
-          {% include tags.html tags=citation.tags repo=citation.repo %}
-        {% endif %}
+      {% if citation.tags.size > 0 or citation.repo %}
+        {% include tags.html tags=citation.tags repo=citation.repo %}
       {% endif %}
     </div>
   </div>

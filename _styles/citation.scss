@@ -46,6 +46,15 @@ $wrap: 800px;
   z-index: 0;
 }
 
+.citation-number {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  font-weight: var(--semi-bold);
+  color: var(--primary);
+  font-size: var(--large);
+}
+
 .citation-title,
 .citation-authors,
 .citation-details,

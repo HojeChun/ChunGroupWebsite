@@ -8,18 +8,19 @@
 {% assign years = data
   | group_by_exp: "d", "d.date | date: '%Y'"
   | sort: "name"
-  | reverse
 %}
 
+{% assign counter = 0 %}
 {% for year in years %}
   {% assign data = year.items %}
 
   {% if years.size > 1 %}
     {{--}}<h3 id="{{ year.name }}">{{ year.name }}</h3>
-    {% assign data = data | sort: "date" | reverse %}
+    {% assign data = data | sort: "date" %}
   {% endif %}
 
   {% for d in data %}
+    {% assign counter = counter | plus: 1 %}
     {% assign style = d.style | default: include.style %}
 
     {%
@@ -41,6 +42,7 @@
       link=d.link
       lookup=d.lookup
       name=d.name
+      number=counter
       publisher=d.publisher
       repo=d.repo
       role=d.role
