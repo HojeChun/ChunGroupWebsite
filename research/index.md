@@ -39,8 +39,7 @@ We develop agentic atomistic simulation frameworks that overcome the timescale a
 
 {%
   include feature.html
-  image="images/research_areas2.svg"
-  link="publications"
+  image="images/research/research_areas2.svg"
   flip=true
   style="bare"
   text=text
@@ -58,9 +57,7 @@ We employ first-principles (ab initio) calculations to uncover atomic-scale mech
 
 {%
   include feature.html
-  image="images/research_areas3.png"
-  link="publications"
-  flip=true
+  image="images/research/research_areas3.png"
   style="bare"
   text=text
 %}
