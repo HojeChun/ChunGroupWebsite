@@ -1,7 +1,7 @@
 ---
 ---
 
-# Digital materials processing and discovery
+# Computational Materials Intelligence Lab
 
 We are a computational research group working at the interface of artificial intelligence and atomistic simulations, with a focus on the predictive design of functional materials. We develop AI-accelerated computational frameworks that enable efficient exploration of complex materials design spaces. Our approaches integrate deep reinforcement learning, machine-learned interatomic potentials, and automated workflows to advance atomistic modeling/simulation for materials discovery. Through these efforts, we aim to understand and predict materials formation, evolution, and functionality, while addressing fundamental questions in chemical bonding, materials processing, and ion and defect transport.
 
