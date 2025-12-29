@@ -1,3 +1,6 @@
+---
+---
+
 $thumb-size: 180px;
 $wrap: 800px;
 
@@ -18,6 +21,7 @@ $wrap: 800px;
   position: relative;
   width: $thumb-size;
   flex-shrink: 0;
+  // box-shadow: var(--shadow);
 }
 
 .citation-image img {
@@ -30,13 +34,9 @@ $wrap: 800px;
 
 .citation-text {
   position: relative;
-
-  /* ✅ 변경: wrap되는 카드 텍스트를 grid로 정렬 */
-  display: grid;
-  grid-template-columns: auto 1fr; /* 번호 | 본문 */
-  column-gap: 10px;
-  row-gap: 10px;
-
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
   max-width: 100%;
   height: min-content;
   padding: 20px;
@@ -46,54 +46,31 @@ $wrap: 800px;
   z-index: 0;
 }
 
-/* ✅ 변경: title-wrapper는 grid의 첫 줄에서만 사용 */
 .citation-title-wrapper {
-  grid-column: 1 / -1; /* 번호+제목 한 줄로 */
-  display: grid;
-  grid-template-columns: auto 1fr;
-  column-gap: 8px;
+  display: flex;
   align-items: baseline;
+  gap: 8px;
+  width: 100%;
 }
 
-/* 번호는 2자리 정도 기준으로 폭을 고정하면 더 예쁨 */
 .citation-number {
   font-weight: var(--semi-bold);
   color: var(--text);
-  font-size: 1em;
   flex-shrink: 0;
-
-  width: 2.8ch;
-  text-align: right;
 }
 
-/* 제목/저자/디테일/설명은 모두 "본문 컬럼"에 정렬 */
 .citation-title,
 .citation-authors,
 .citation-details,
 .citation-description {
-  grid-column: 2;
   width: 100%;
 }
 
 .citation-title {
   font-weight: var(--semi-bold);
-  color: var(--text);
+  flex: 1;
 }
 
-/* 제목은 wrapper 안에서 2번째 컬럼 */
-.citation-title-wrapper .citation-title {
-  grid-column: 2;
-}
-
-/* 저자/디테일/설명 줄에서 번호 컬럼(1)엔 빈칸 역할 */
-.citation-authors::before,
-.citation-details::before,
-.citation-description::before {
-  content: "";
-  grid-column: 1;
-}
-
-/* ✅ 아이콘 위치는 그대로 */
 .citation-text > .icon {
   position: absolute;
   top: 20px;
@@ -113,7 +90,6 @@ $wrap: 800px;
 }
 
 .citation-buttons {
-  grid-column: 2; /* 버튼도 본문 시작선에 맞춤 */
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -124,7 +100,6 @@ $wrap: 800px;
 }
 
 .citation-text > .tags {
-  grid-column: 2; /* 태그도 본문 시작선에 맞춤 */
   display: inline-flex;
   justify-content: flex-start;
   margin: 0;
