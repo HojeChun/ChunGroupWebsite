@@ -1,6 +1,6 @@
 ---
 name: Hoje Chun
-image: images/photo.jpg
+image: images/members/hoje-chun.jpg
 role: principal-investigator
 group: team
 aliases:
@@ -17,7 +17,7 @@ links:
 Dr. Hoje Chun is an Assistant Professor in the Department of Chemistry at Kookmin University. He received his Ph.D. in Chemical and Biomolecular Engineering in 2023 from Yonsei University, where he focused on energy materials using first-principles calculations and machine-learning–accelerated atomistic simulations. He earned his Bachelor of Engineering in Energy and Environmental Science and Engineering from Yonsei University in 2018. He later conducted research at the Massachusetts Institute of Technology (MIT) as a postdoctoral researcher under the guidance of Prof. Rafael Gómez-Bombarelli and Prof. Ju Li. His research focuses on AI-driven multiscale atomistic simulations and high-throughput virtual screening for the discovery of energy materials.
 
 {% include section.html%}
-##  Education and Experiences
+##  Education and Experience
 
 <div class="timeline">
   <div class="timeline-item">

@@ -24,7 +24,7 @@ We use computational tools to understand and design materials, including electro
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/research_areas.png"
   link="research"
   title="Research areas"
   text=text
@@ -47,7 +47,7 @@ Discover our latest research in materials design, digital discovery, and algorit
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/publications.png"
   link="publications"
   title="Publications"
   flip=true
@@ -55,7 +55,7 @@ Discover our latest research in materials design, digital discovery, and algorit
   text=text
 %}
 
-{% capture text %}
+<!-- {% capture text %}
 
 We are always looking for motivated undergraduate interns and MS and PhD students. We are building a collaborative and supportive research environments in the lab.
 
@@ -76,4 +76,4 @@ We are always looking for motivated undergraduate interns and MS and PhD student
   link="team"
   title="Our team"
   text=text
-%}
+%} -->
