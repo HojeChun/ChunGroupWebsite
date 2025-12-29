@@ -49,3 +49,19 @@ button {
 .button[data-flip] {
   flex-direction: row-reverse;
 }
+
+.button[data-style="icon"] {
+    padding: 6px;            /* 아이콘 버튼은 정사각형 */
+    margin: 0;               /* 한 줄 정렬 깔끔 */
+    background: none;
+    color: var(--primary);
+  
+    width: 34px;
+    height: 34px;
+    border-radius: 999px;    /* 동그란 아이콘 버튼 */
+  
+    &:hover {
+      color: var(--text);
+      background: rgba(0,0,0,0.06); /* 너무 튀지 않는 hover */
+    }
+  }
