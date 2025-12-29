@@ -25,6 +25,7 @@ Leveraging large language models, we develop scientific AI agents for automated 
   include feature.html
   image="images/research/research_areas1.svg"
   text=text
+  fit="cover
 %}
 
 {% include section.html %}
@@ -43,6 +44,7 @@ We develop agentic atomistic simulation frameworks that overcome the timescale a
   flip=true
   style="bare"
   text=text
+  fit="cover
 %}
 
 {% include section.html %}
@@ -60,4 +62,5 @@ We employ first-principles (ab initio) calculations to uncover atomic-scale mech
   image="images/research/research_areas3.png"
   style="bare"
   text=text
+  fit="cover
 %}

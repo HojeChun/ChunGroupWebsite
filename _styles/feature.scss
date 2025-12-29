@@ -26,6 +26,18 @@ $wrap: 800px;
   object-fit: cover;
 }
 
+.feature-image img.fit-contain {
+    object-fit: contain;
+}
+
+.feature-image {
+    background: #fff; /* 또는 var(--bg) */
+}
+  
+.feature-image img.fit-contain {
+    object-position: center;
+}
+
 .feature-text {
   flex-grow: 1;
 }
