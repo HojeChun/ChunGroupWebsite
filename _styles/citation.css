@@ -40,7 +40,7 @@
 }
 
 .citation-title-wrapper {
-  display: inline;
+  display: flex;
   align-items: baseline;
   gap: 8px;
   width: 100%;
@@ -50,6 +50,7 @@
   font-weight: var(--semi-bold);
   color: var(--text);
   font-size: 1em;
+  flex-shrink: 0;
 }
 
 .citation-title,
@@ -60,10 +61,9 @@
 }
 
 .citation-title {
-  display: inline;
   font-weight: var(--semi-bold);
   color: var(--text);
-  flex: unset;
+  flex: 1;
 }
 
 .citation-text > .icon {
