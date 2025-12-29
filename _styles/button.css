@@ -61,4 +61,14 @@ button {
   background: rgba(0, 0, 0, 0.06); /* 너무 튀지 않는 hover */
 }
 
+/* icon 모드에서는 라벨 텍스트 숨김 */
+.button[data-style=icon] span {
+  display: none !important;
+}
+
+/* 아이콘만 깔끔하게: gap 제거 */
+.button[data-style=icon] {
+  gap: 0;
+}
+
 /*# sourceMappingURL=button.css.map */
