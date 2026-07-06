@@ -617,24 +617,6 @@
   orcid: 0000-0003-0624-536X
   tags:
   - phenomena
-- id: ZrnibVwAAAAJ:Se3iqnhoufwC
-  title: First-principles study on ultrafast Li-ion diffusion in halospinel Li 2 Sc
-    2/3 Cl 4 through multichannels designed by aliovalent doping
-  authors:
-  - S Hyun
-  - <u>Hoje Chun</u>
-  - M Hong
-  - J Kang
-  - B Han
-  publisher: Journal of Materials Chemistry A 11 (8), 4272-4279, 2023
-  date: '2023-01-01'
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:Se3iqnhoufwC
-  gsid: ZrnibVwAAAAJ
-  type: paper
-  tags:
-  - energy materials
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1016/j.ensm.2025.104040
   title: Zeolitic imidazolate framework-derived bifunctional CoO-Mn3O4 heterostructure
     cathode enhancing oxygen reduction/evolution via dynamic O-vacancy formation and
@@ -664,6 +646,24 @@
   - machine learning
   - energy materials
   - catalysis
+- id: ZrnibVwAAAAJ:Se3iqnhoufwC
+  title: First-principles study on ultrafast Li-ion diffusion in halospinel Li 2 Sc
+    2/3 Cl 4 through multichannels designed by aliovalent doping
+  authors:
+  - S Hyun
+  - <u>Hoje Chun</u>
+  - M Hong
+  - J Kang
+  - B Han
+  publisher: Journal of Materials Chemistry A 11 (8), 4272-4279, 2023
+  date: '2023-01-01'
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ZrnibVwAAAAJ&pagesize=100&citation_for_view=ZrnibVwAAAAJ:Se3iqnhoufwC
+  gsid: ZrnibVwAAAAJ
+  type: paper
+  tags:
+  - energy materials
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1021/acscentsci.5c00547
   title: Accelerating and Enhancing Thermodynamic Simulations of Electrochemical Interfaces
   authors:
