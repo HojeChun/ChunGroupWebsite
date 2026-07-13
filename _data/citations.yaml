@@ -471,6 +471,23 @@
   orcid: 0000-0003-0624-536X
   tags:
   - energy materials
+- id: doi:10.1002/er.4064
+  title: First principles computational studies of spontaneous reduction reaction
+    of Eu(III) in eutectic LiCl-KCl molten salt
+  authors:
+  - Choah Kwon
+  - Seung Hyo Noh
+  - <u>Hoje Chun</u>
+  - Il Soon Hwang
+  - Byungchan Han
+  publisher: International Journal of Energy Research 42 (8), 2757-2765
+  date: '2018-03-26'
+  link: https://doi.org/gdr99t
+  gsid: ZrnibVwAAAAJ
+  plugin: orcid.py
+  file: orcid.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
 - id: doi:10.1016/j.mtnano.2020.100099
   title: High quantum efficiency and stability of biohybrid quantum dots nanojunctions
     in bacteriophage-constructed perovskite
@@ -507,23 +524,6 @@
   orcid: 0000-0003-0624-536X
   tags:
   - electronic materials
-- id: doi:10.1002/er.4064
-  title: First principles computational studies of spontaneous reduction reaction
-    of Eu(III) in eutectic LiCl-KCl molten salt
-  authors:
-  - Choah Kwon
-  - Seung Hyo Noh
-  - <u>Hoje Chun</u>
-  - Il Soon Hwang
-  - Byungchan Han
-  publisher: International Journal of Energy Research 42 (8), 2757-2765
-  date: '2018-03-26'
-  link: https://doi.org/gdr99t
-  gsid: ZrnibVwAAAAJ
-  plugin: orcid.py
-  file: orcid.yaml
-  type: paper
-  orcid: 0000-0003-0624-536X
 - id: doi:10.1038/s41524-024-01432-1
   title: Active learning accelerated exploration of single-atom local environments
     in multimetallic systems for oxygen electrocatalysis
@@ -583,6 +583,35 @@
   file: orcid.yaml
   type: paper
   orcid: 0000-0003-0624-536X
+- id: doi:10.1016/j.ensm.2025.104040
+  title: Zeolitic imidazolate framework-derived bifunctional CoO-Mn3O4 heterostructure
+    cathode enhancing oxygen reduction/evolution via dynamic O-vacancy formation and
+    healing for high-performance Zn-air batteries
+  authors:
+  - Jong Hui Choi
+  - <u>Hoje Chun</u>
+  - Dong Won Kim
+  - Mrinal Kanti Kabiraz
+  - Jeonghyeon Kim
+  - Jihoon Kim
+  - Keon-Han Kim
+  - Benzhi Wang
+  - Hyung Mo Jeong
+  - Sang-Il Choi
+  - Byungchan Han
+  - Jeung Ku Kang
+  publisher: Energy Storage Materials 75, 104040
+  date: '2025-02-01'
+  link: https://doi.org/hbg52j
+  gsid: ZrnibVwAAAAJ
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  orcid: 0000-0003-0624-536X
+  tags:
+  - machine learning
+  - energy materials
+  - catalysis
 - id: doi:10.1038/s41467-025-56476-8
   title: Time-resolved Brownian tomography of single nanocrystals in liquid during
     oxidative etching
@@ -617,35 +646,6 @@
   orcid: 0000-0003-0624-536X
   tags:
   - phenomena
-- id: doi:10.1016/j.ensm.2025.104040
-  title: Zeolitic imidazolate framework-derived bifunctional CoO-Mn3O4 heterostructure
-    cathode enhancing oxygen reduction/evolution via dynamic O-vacancy formation and
-    healing for high-performance Zn-air batteries
-  authors:
-  - Jong Hui Choi
-  - <u>Hoje Chun</u>
-  - Dong Won Kim
-  - Mrinal Kanti Kabiraz
-  - Jeonghyeon Kim
-  - Jihoon Kim
-  - Keon-Han Kim
-  - Benzhi Wang
-  - Hyung Mo Jeong
-  - Sang-Il Choi
-  - Byungchan Han
-  - Jeung Ku Kang
-  publisher: Energy Storage Materials 75, 104040
-  date: '2025-02-01'
-  link: https://doi.org/hbg52j
-  gsid: ZrnibVwAAAAJ
-  plugin: sources.py
-  file: sources.yaml
-  type: paper
-  orcid: 0000-0003-0624-536X
-  tags:
-  - machine learning
-  - energy materials
-  - catalysis
 - id: ZrnibVwAAAAJ:Se3iqnhoufwC
   title: First-principles study on ultrafast Li-ion diffusion in halospinel Li 2 Sc
     2/3 Cl 4 through multichannels designed by aliovalent doping
